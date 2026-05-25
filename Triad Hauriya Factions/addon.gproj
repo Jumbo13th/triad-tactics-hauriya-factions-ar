@@ -1,0 +1,86 @@
+GameProject {
+ ID "TriadHauriyaFactions"
+ GUID "6972FB969A1D5C2E"
+ TITLE "Triad Hauriya Factions"
+ Dependencies {
+  "6912F9D48E9C8422" "58D0FB3206B6F859" "6716875A093F686A" "68E97A656E559965" "64CEC8E005828E5D" "5D550926D43F1409" "62A711001B8FDEEA" "6614BD0AC038E724" "5AE50EC5B8D6F4AE"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{6973312E090B386E}" {
+      StringTableSource "{C5056902299FA137}Language/thf_localization.st"
+      Languages {
+       LanguageDefinition "{6973312E07A4E3A7}" {
+        Code "cs_cz"
+        StringTableRuntime "{D9583FBAD97F7E2C}Language/thf_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{6973312E07A4E3F1}" {
+        Code "de_de"
+        StringTableRuntime "{0C262589CADC6F0C}Language/thf_localization.de_de.conf"
+       }
+       LanguageDefinition "{6973312E07A4E3FC}" {
+        Code "en_us"
+        StringTableRuntime "{52D6AFC2A02F6A0D}Language/thf_localization.en_us.conf"
+       }
+       LanguageDefinition "{6973312E07A4E3E9}" {
+        Code "es_es"
+        StringTableRuntime "{979AE24B4E2D0112}Language/thf_localization.es_es.conf"
+       }
+       LanguageDefinition "{6973312E07A4E313}" {
+        Code "fr_fr"
+        StringTableRuntime "{2C32177CA8AEE210}Language/thf_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{6973312E07A4E301}" {
+        Code "it_it"
+        StringTableRuntime "{AC2E9848058C61E9}Language/thf_localization.it_it.conf"
+       }
+       LanguageDefinition "{6973312E07A4E30B}" {
+        Code "ja_jp"
+        StringTableRuntime "{BC3525DA3BFD5142}Language/thf_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{6973312E07A4E334}" {
+        Code "ko_kr"
+        StringTableRuntime "{1C8B0D76A8D0527D}Language/thf_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{6973312E07A4E321}" {
+        Code "pl_pl"
+        StringTableRuntime "{40FAAB8C163FCE01}Language/thf_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{6973312E07A4E32D}" {
+        Code "pt_br"
+        StringTableRuntime "{958D31402DC104BB}Language/thf_localization.pt_br.conf"
+       }
+       LanguageDefinition "{6973312E07A4E35B}" {
+        Code "ru_ru"
+        StringTableRuntime "{C0CC25E8B0B861CD}Language/thf_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{6973312E07A4E34A}" {
+        Code "uk_ua"
+        StringTableRuntime "{4A94701EDC96DF98}Language/thf_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{6973312E07A4E2D7}" {
+        Code "zh_cn"
+        StringTableRuntime "{90241E23E5360F85}Language/thf_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig Xbox {
+   PlatformHardware XBOX_ONE
+  }
+ }
+}

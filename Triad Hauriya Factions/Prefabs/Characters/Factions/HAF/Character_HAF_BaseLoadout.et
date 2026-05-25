@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
+  FactionAffiliationComponent "{6973024DC48B393B}" {
+   "faction affiliation" "HAF"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_Rifleman"
+    m_sFaction "HAF"
+    m_aAuthoredLabels + {
+     ENTITYTYPE_CHARACTER ROLE_RIFLEMAN FACTION_HAF
+    }
+   }
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{4EB885B8A7F89B3D}Prefabs/Characters/Heads/Head_White_04_Libyan.et"
+     Body "{19901FDD7FC5EE3B}Prefabs/Characters/Basebody/CharacterBasebody_Libyan.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8383DDFF3BF4B300}Prefabs/Characters/HeadGear/Shemagh/Black/GD_Shemagh_Black.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{5A211711D3D11880}Prefabs/Characters/Uniforms/Jacket_US_BDU_02_black_color.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{4A7EDD54658B9584}Prefabs/Characters/Uniforms/Military Pants/GD_Military Pants Long.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{175F271434189EF1}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_soviet_mixed.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6973312BB2C2CC9C}" {
+     TargetStorage "Pants/GD_Military Pants Long.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_US.et" "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et" "{9362204629444A94}Prefabs/Items/Equipment/Radios/THF_Radio_ANPRC68.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6973312EFC70F102}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02_black_color.et"
+     PrefabsToSpawn {
+      "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+     }
+    }
+   }
+  }
+ }
+}
