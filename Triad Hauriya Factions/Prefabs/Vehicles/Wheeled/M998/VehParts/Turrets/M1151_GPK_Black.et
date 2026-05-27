@@ -1,0 +1,16 @@
+Turret : "{EBBA338CCDE146A2}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{69775ED1143FDCEC}" {
+     SourceMaterial "GPK"
+     AssignedMaterial "{0C042A092EABAB6D}Assets/Vehicles/Wheeled/M1151/Data/GPK_Black.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{F7042BEE947F4C43}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_Pintle_GPK_Shield_Black.et"
+  }
+ }
+}

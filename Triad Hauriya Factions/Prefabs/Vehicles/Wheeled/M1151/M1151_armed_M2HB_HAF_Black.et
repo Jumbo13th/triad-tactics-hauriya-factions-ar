@@ -1,0 +1,39 @@
+Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69775ED1ABB85CCA}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{4EC0B2C0FB7CD6E7}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Black.emat"
+    }
+    MaterialAssignClass "{69775ED1ABB85CF9}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{471A4B9A1135027B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Tan.edds"
+    m_sFaction "HAF"
+    m_aAutoLabels {
+     FACTION_HAF SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "HAF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{13CF0711B5EF3DD6}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Black.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{B184EABD4E5484BE}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Black.et"
+    }
+   }
+  }
+ }
+}

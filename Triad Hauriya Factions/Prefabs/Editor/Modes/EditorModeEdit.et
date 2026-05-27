@@ -11,6 +11,8 @@ SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et
     }
     SCR_PlaceableEntitiesRegistry "{697736E552ED154D}" : "{8A1A3277B2DEF717}Configs/Editor/PlaceableEntities/Groups_HTC.conf" {
     }
+    SCR_PlaceableEntitiesRegistry "{69776987442C2E54}" : "{6BD177A2E626B6ED}Configs/Editor/PlaceableEntities/Vehicles_HTC.conf" {
+    }
    }
   }
  }

@@ -1,0 +1,20 @@
+GenericEntity : "{858504D2A45B440F}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_Pintle_GPK_Shield.et" {
+ ID "476AE74DE20E1061"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{697767D3B5799D4E}" {
+     SourceMaterial "M2_Mount"
+     AssignedMaterial "{5477F5F955DE1576}Assets/Weapons/HeavyWeapons/M2HB/Data/M2_Mount.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{66DEA5ABF1BC81F9}" {
+   Slots {
+    EntitySlotInfo Shield {
+     Prefab "{80CADAA35687F824}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK_Black.et"
+    }
+   }
+  }
+ }
+}
