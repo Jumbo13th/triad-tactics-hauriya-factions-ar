@@ -1,0 +1,18 @@
+SCR_AIGroup : "{04281E87CF471DE2}Prefabs/Groups/HTC/Group_HTC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_HTC GROUPTYPE_MOTORIZED GROUPSIZE_LARGE
+    }
+    m_MilitarySymbol SCR_MilitarySymbol "{697736E644B2E88C}" {
+     m_Icons 3
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{30B322072B4F7340}Prefabs/Characters/Factions/HTC/Character_HTC_SL.et" "{4DABCEFF4EDC4FD9}Prefabs/Characters/Factions/HTC/Character_HTC_SR.et" "{8593BAD96042CF0F}Prefabs/Characters/Factions/HTC/Character_HTC_AT.et" "{052AF4F475F2FA3F}Prefabs/Characters/Factions/HTC/Character_HTC_AAT.et" "{0F2C0D027784C5B0}Prefabs/Characters/Factions/HTC/Character_HTC_MG.et" "{8F95432F6234F080}Prefabs/Characters/Factions/HTC/Character_HTC_AMG.et" "{3F4FD0F4DDD32284}Prefabs/Characters/Factions/HTC/Character_HTC_RiflemanAT.et" "{A0175D595212B7CC}Prefabs/Characters/Factions/HTC/Character_HTC_Crewman.et" "{A0175D595212B7CC}Prefabs/Characters/Factions/HTC/Character_HTC_Crewman.et"
+ }
+}

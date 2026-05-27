@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{00A961D174C29C85}Prefabs/Characters/Factions/HAF/Character_HAF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_MG"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_HAF ROLE_MACHINEGUNNER
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{19404DCB884006B0}Prefabs/Characters/Uniforms/Pants_Taksuit_2.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{67F81358378C6046}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman_soviet_mixed_HMG.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6973312BB2C2CC9C}" {
+     TargetStorage "Pants/Pants_Taksuit_2.et"
+    }
+    ItemsInitConfigurationItem "{6973312EAFC8A37A}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/MagPouch/Pouch_Soviet_100rnd_PKM.et"
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6973312E828C51D7}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/MagPouch2/Vest_SovietHarness_GrenadePouch.et"
+    }
+    ItemsInitConfigurationItem "{6973312E6F1D07E1}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman_soviet_mixed_HMG.et/Buttpack/Vest_ALICE_buttpack_no_US.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6974BB09E65A18D7}" {
+     PrefabsToSpawn {
+      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

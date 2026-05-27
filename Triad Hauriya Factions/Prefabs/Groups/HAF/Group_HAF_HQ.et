@@ -1,0 +1,18 @@
+SCR_AIGroup : "{193060A38945633C}Prefabs/Groups/HAF/Group_HAF_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#THF-Groups_HQ"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_HAF GROUPSIZE_SMALL
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{F94F2C2918D397E2}Prefabs/Characters/Factions/HAF/Character_HAF_PL.et" "{94A363B3E2D67331}Prefabs/Characters/Factions/HAF/Character_HAF_DPL.et"
+ }
+}

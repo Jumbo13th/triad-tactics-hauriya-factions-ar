@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{E835B6A414CE4915}Prefabs/Characters/Factions/HTC/Character_HTC_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_Sniper"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER ROLE_SHARPSHOOTER FACTION_HTC
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{91123A35DE90EF32}Prefabs/Weapons/Rifles/ARY_G3/ARY_PSG1/ARY_Rifle_G3_PSG1_Scoped.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D5285CF5457FE6F2}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_DBDU.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{851A2472F2FA5295}Prefabs/Characters/Uniforms/Jacket_US_DCU_rolledup.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E5BE6AD5A2955467}Prefabs/Characters/Uniforms/Pants_US_DBDU.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{697736F1FE4C801F}" {
+     TargetStorage "Pants/Pants_US_DBDU.et"
+    }
+    ItemsInitConfigurationItem "{697736F1FE4C8001}" {
+     TargetStorage "Jacket/Jacket_US_DCU_rolledup.et"
+    }
+    ItemsInitConfigurationItem "{697736FF703E0560}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{697736FE89707991}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{697736FE6DC407D5}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{1561F62EACD74A61}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM21_Tracer.et" "{1561F62EACD74A61}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM21_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{697736FE4FF731EC}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et"
+     }
+    }
+   }
+  }
+ }
+}

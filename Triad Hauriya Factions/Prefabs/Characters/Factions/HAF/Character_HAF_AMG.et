@@ -1,0 +1,73 @@
+SCR_ChimeraCharacter : "{00A961D174C29C85}Prefabs/Characters/Factions/HAF/Character_HAF_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_AMG"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1EDA8027A72F8D5B}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/ARY_Rifle_G3A3_WideBlack.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{A3A9B4437EE070A2}Prefabs/Characters/HeadGear/Hat_Shemagh/Green/GD_Shemagh_Only_Hat_Green.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{E1D19D5884FDB27E}Prefabs/Characters/Uniforms/Jacket_US_BDU_black_color_rolledup_02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7514792B3484899E}Prefabs/Characters/Uniforms/Pants_Taksuit_1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6973312BB2C2CC9C}" {
+     TargetStorage "Pants/Pants_Taksuit_1.et"
+    }
+    ItemsInitConfigurationItem "{6973312EFC70F102}" {
+     TargetStorage "Jacket/Jacket_US_BDU_black_color_rolledup_02.et"
+    }
+    ItemsInitConfigurationItem "{6973312EAFC8A37A}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6973312E828C51D7}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6973312E6F1D07E1}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{F4EFB23F1843D20D}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM21_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6974BB09E65A18D7}" {
+     PrefabsToSpawn {
+      "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{881AD04443EDD2A6}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM41_Ball.et" "{F4EFB23F1843D20D}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Alu/ARY_Magazine_762x51_G3_20Rnd_Alu_DM21_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

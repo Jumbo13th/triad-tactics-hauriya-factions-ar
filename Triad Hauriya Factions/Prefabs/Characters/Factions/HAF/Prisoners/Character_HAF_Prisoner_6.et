@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{D9626FAAF46209E0}Prefabs/Characters/Factions/HAF/Prisoners/Character_HAF_Prisoner_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{E6A32FCB9CAD03D2}Prefabs/Characters/Uniforms/Jacket_ShirtSmall_2.et"
+    }
+   }
+  }
+ }
+}

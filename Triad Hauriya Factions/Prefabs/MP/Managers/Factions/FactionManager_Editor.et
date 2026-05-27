@@ -3,5 +3,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{697331272852BD31}" : "{A91B5BCFAFAC18B1}Configs/Factions/HAF.conf" {
   }
+  SCR_Faction "{697736FE1F724E4E}" : "{F25073CDF2A89B88}Configs/Factions/HTC.conf" {
+  }
  }
 }

@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{D9626FAAF46209E0}Prefabs/Characters/Factions/HAF/Prisoners/Character_HAF_Prisoner_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{665EEF29CC2C672A}Prefabs/Characters/HeadGear/Hat_TruckerCap_01/Hat_TruckerCap_01_base.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{C765CE33535F1B3E}Prefabs/Characters/Uniforms/Jacket_Bomber_1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{7514792B3484899E}Prefabs/Characters/Uniforms/Pants_Taksuit_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6973312BB2C2CC9C}" {
+     TargetStorage "Pants/Pants_Taksuit_1.et"
+    }
+   }
+  }
+ }
+}
