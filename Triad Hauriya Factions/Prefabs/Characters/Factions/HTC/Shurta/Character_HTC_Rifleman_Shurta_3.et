@@ -1,0 +1,68 @@
+SCR_ChimeraCharacter : "{57A63B28ED0D235A}Prefabs/Characters/Factions/HTC/Character_HTC_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_Shurta_Rifleman"
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{986BEF5334508006}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_MC51/ARY_Rifle_MC51SD4.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D3DE3810F3E35336}Prefabs/Characters/HeadGear/Hat_Beret_01/Hat_Beret_01_gs_blue.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{3A89E65455F5D7AE}Prefabs/Characters/Uniforms/Jacket_US_BDU_02_blue_color.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{E5BE6AD5A2955467}Prefabs/Characters/Uniforms/Pants_US_DBDU.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{697736F1FE4C801F}" {
+     TargetStorage "Pants/Pants_US_DBDU.et"
+    }
+    ItemsInitConfigurationItem "{697736F1FE4C8001}" {
+     TargetStorage "Jacket/Jacket_US_BDU_02_blue_color.et"
+    }
+    ItemsInitConfigurationItem "{6978791820CB8A17}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6978791820CB8A2D}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{7F08FE40B9CE1A53}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM21_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6978791820CB8A2C}" {
+     TargetStorage "Vest/Vest_ALICE_rifleman.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{4051D256A277237F}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM41_Ball.et" "{7F08FE40B9CE1A53}Prefabs/Weapons/Magazines/ARY_G3/20Rnd_Steel/ARY_Magazine_762x51_G3_20Rnd_DM21_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

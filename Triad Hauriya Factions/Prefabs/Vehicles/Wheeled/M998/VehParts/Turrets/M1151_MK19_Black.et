@@ -1,0 +1,16 @@
+Turret : "{889E26E662A79214}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_MK19.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{697AA1F4168B38D0}" {
+     SourceMaterial "GPK"
+     AssignedMaterial "{0C042A092EABAB6D}Assets/Vehicles/Wheeled/M1151/Data/GPK_Black.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{694F8CEDD7FA0A30}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151_Black.et"
+  }
+ }
+}

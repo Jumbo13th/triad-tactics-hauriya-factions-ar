@@ -5,7 +5,11 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    "Encryption key" "htcRadio"
    "Turned on" 1
    Transceivers {
-    RadioTransceiver "{5EA4A89F0D06E18F}" {
+    RelayTransceiver "{5EA4A89F0D06E18F}" {
+     ChannelFrequency 44000
+     "Transmitting Range" 4000
+     "Min tunable frequency" 32000
+     "Max tunable frequency" 68000
      "Frequency resolution" 200
     }
    }

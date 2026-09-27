@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{45B1A077DEF4CF40}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_Shurta_Sniper"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER ROLE_SHARPSHOOTER FACTION_HTC
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{91123A35DE90EF32}Prefabs/Weapons/Rifles/ARY_G3/ARY_PSG1/ARY_Rifle_G3_PSG1_Scoped.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6978791A7E78CAF6}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6978791A7E78CA20}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{1561F62EACD74A61}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM21_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6978791A7E78CA23}" {
+     PrefabsToSpawn {
+      "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{BD6724539C0FF91E}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM41_Ball.et" "{1561F62EACD74A61}Prefabs/Weapons/Magazines/ARY_G3/10Rnd/ARY_Magazine_762x51_G3_10Rnd_DM21_Tracer.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

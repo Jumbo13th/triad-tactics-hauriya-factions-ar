@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{4235DBA5DAEBE9BE}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Characters_Commando_SL"
+    m_aAuthoredLabels {
+     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER ROLE_RIFLEMAN ROLE_LEADER FACTION_HTC
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6CA25A723382F902}Prefabs/Weapons/Rifles/M4/Rifle_M4_RIS.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{D5285CF5457FE6F2}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_DBDU.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3A66D2E34DC5EC4C}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_f_3CD.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41B36410476D8367}Prefabs/Items/Equipment/Radios/THF_Radio_R107M.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{697736FE4FF731EC}" {
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

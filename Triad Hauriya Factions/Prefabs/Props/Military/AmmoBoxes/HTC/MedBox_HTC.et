@@ -1,0 +1,63 @@
+GenericEntity : "{F0404B3895D3F80E}Prefabs/Props/Military/AmmoBoxes/US/EquipmentBoxWooden_Medical_01_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   Enabled 1
+  }
+  SCR_EditableEntityComponent "{7C738482DB4C4FC6}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Crates_Medical_HTC"
+    m_Image "{BEA7B5CAF7785C3B}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Medical_01_US.edds"
+    m_sFaction "HTC"
+    m_aAuthoredLabels {
+     1779715346
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{54F48AF1F3C103C1}" {
+     Name "#THF-Crates_Medical_HTC"
+     Description "#THF-Crates_Medical_HTC"
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 100000
+   MaxItemSize 40 40 40
+   m_fMaxWeight 100
+   MultiSlots {
+    MultiSlotConfiguration "{BC19E4852D5449E1}" {
+     SlotTemplate InventoryStorageSlot FieldDressing_US_01 {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{04EDBB7900554EC2}" {
+     SlotTemplate InventoryStorageSlot MorphineInjection_01 {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{0BDE3B44AA7C46AF}" {
+     SlotTemplate InventoryStorageSlot Tourniquet_US_01 {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

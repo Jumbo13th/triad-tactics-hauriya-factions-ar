@@ -15,10 +15,60 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#THF-Vehicles-M1151A1_M2"
     m_Image "{471A4B9A1135027B}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Tan.edds"
     m_sFaction "HAF"
     m_aAutoLabels {
      FACTION_HAF SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9114}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9113}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9111}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9110}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911F}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911D}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 0
+     }
+     NumSlots 0
     }
    }
   }
@@ -27,6 +77,8 @@ Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" 
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
+    RegisteringComponentSlotInfo Antenna_rear {
+    }
     RegisteringComponentSlotInfo Tailgate {
      Prefab "{13CF0711B5EF3DD6}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Black.et"
     }

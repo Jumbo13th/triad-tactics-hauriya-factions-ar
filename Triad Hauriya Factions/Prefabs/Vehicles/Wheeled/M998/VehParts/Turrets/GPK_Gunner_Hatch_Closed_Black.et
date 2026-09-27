@@ -1,0 +1,13 @@
+GenericEntity : "{8C36D48C7EB2EE5A}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/GPK_Gunner_Hatch_Closed.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{697AC53FC6D8B03F}" {
+     SourceMaterial "M1151_Gunner_Hatch"
+     AssignedMaterial "{388D40B60B3B916C}Assets/Vehicles/Wheeled/M1151/Data/M1151_Gunner_Hatch_Black.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+SCR_AIGroup : "{F48385848F623861}Prefabs/Groups/HAF/Group_HAF_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#THF-Groups_TowOperators"
+    m_MilitarySymbol SCR_MilitarySymbol "{69750BEFF1850174}" {
+     m_Icons 9
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{605195B00534A672}Prefabs/Characters/Factions/HAF/Character_HAF_SL.et" "{EB8460CFDA791CED}Prefabs/Characters/Factions/HAF/Character_HAF_TowOp_1.et" "{4D7F1488810F139B}Prefabs/Characters/Factions/HAF/Character_HAF_Rifleman_AmmoBearer_1.et" "{87D0542F66BD93C3}Prefabs/Characters/Factions/HAF/Character_HAF_TowOp_2.et" "{7EDAFCB04EDD16F2}Prefabs/Characters/Factions/HAF/Character_HAF_AmmoBearer_2.et"
+ }
+}

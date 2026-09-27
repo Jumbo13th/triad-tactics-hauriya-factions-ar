@@ -1,0 +1,28 @@
+Vehicle : "{7690DBC57B6489E5}Prefabs/Vehicles/Wheeled/M1151/M1151_armed_MK19_Black.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#THF-Vehicles-M1151A1_Mk19_Flag"
+    m_sFaction "HAF"
+    m_aAutoLabels {
+     SIZE_M VEHICLE_CAR FACTION_HAF
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "HAF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Antenna_rear {
+     Prefab "{BB50F31C226E6F48}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_antenna_rear_no_damage.et"
+    }
+    RegisteringComponentSlotInfo Flag {
+     Offset 0.924 2.8283 -2.2369
+     Prefab "{CDDBCF8E89AE89F2}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_HAF.et"
+    }
+   }
+  }
+ }
+}

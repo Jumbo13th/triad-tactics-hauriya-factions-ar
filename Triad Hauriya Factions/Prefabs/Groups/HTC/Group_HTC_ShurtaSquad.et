@@ -1,0 +1,15 @@
+SCR_AIGroup : "{04281E87CF471DE2}Prefabs/Groups/HTC/Group_HTC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  LL_GroupCallsign "{6A6F58DD518C2BC6}" {
+  }
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#THF-Groups_ShurtaSquad"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{AD9CD76DD8A81A97}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_SL.et" "{D0843B95BD3B260E}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_SR.et" "{45B1A077DEF4CF40}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_1.et" "{38B902BEFA97B813}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_2.et" "{DD254E47F6722F78}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_3.et" "{BEBA2E060246BA0D}Prefabs/Characters/Factions/HTC/Shurta/Character_HTC_Rifleman_Shurta_Sniper.et"
+ }
+}

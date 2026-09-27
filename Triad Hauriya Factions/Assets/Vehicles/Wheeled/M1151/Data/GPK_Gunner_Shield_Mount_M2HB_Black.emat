@@ -1,13 +1,5 @@
 MatPBRMulti {
  Color 0 0 0 1
- GlobalMCRMap "{121570535D42021F}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_MCR.edds"
- OverlayWhitePower 0
- MaskMap "{FC38083101BB18BD}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_GLOBAL_MASK.edds"
- MaskRedScale 5
- MaskGreenScale 1.711
- MaskBlueScale 0
- VFXMap "{A6D444F8AAAF7133}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_VFX.edds"
- GlobalNMOMap "{D6A64150F6CBC05F}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_NMO.edds"
  MudOpacity 0.98
  MudColor 0.091 0.083 0.074 1
  MudRoughness 1.45
@@ -20,6 +12,14 @@ MatPBRMulti {
  DirtRoughness 1.036
  DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
  DirtMaskMap "{C9664A554B37B2B2}Assets/_SharedData/DetailMask/ST_Damage_01_Mask1.edds"
+ GlobalMCRMap "{121570535D42021F}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_MCR.edds"
+ OverlayWhitePower 0
+ MaskMap "{FC38083101BB18BD}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_GLOBAL_MASK.edds"
+ MaskRedScale 5
+ MaskGreenScale 1.711
+ MaskBlueScale 0
+ VFXMap "{A6D444F8AAAF7133}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_VFX.edds"
+ GlobalNMOMap "{D6A64150F6CBC05F}Assets/Vehicles/Wheeled/M1151/Data/GPK/GPK_GunnerShield_M2HB_Mount_NMO.edds"
  Enabled_4 1
  Color_4 0 0 0 1
  BCR_4 "{BCC6BF9DF11A74D0}Assets/_SharedData/Plastic/ST_PlasticBase_01_BCR.edds"

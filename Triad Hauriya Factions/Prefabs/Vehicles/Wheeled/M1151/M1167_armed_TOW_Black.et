@@ -1,0 +1,89 @@
+Vehicle : "{08DC83258B558A9E}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{697C96C6796733EC}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{4EC0B2C0FB7CD6E7}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Black.emat"
+    }
+    MaterialAssignClass "{697C96C67967331A}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#THF-Vehicles-M1167_Tow"
+    m_Image "{0AE7871A6C7FE01E}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1167_Tan.edds"
+    m_sFaction "HAF"
+    m_aAutoLabels {
+     SIZE_M VEHICLE_CAR FACTION_HAF
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9114}" {
+     SlotTemplate InventoryStorageSlot M16ammo {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9113}" {
+     SlotTemplate InventoryStorageSlot SAWammo {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9111}" {
+     SlotTemplate InventoryStorageSlot Grenades {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC9110}" {
+     SlotTemplate InventoryStorageSlot SmokeGrenades {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911F}" {
+     SlotTemplate InventoryStorageSlot ugl {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911D}" {
+     SlotTemplate InventoryStorageSlot ugl_flare {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{66F2D69AD3FC911C}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Enabled 0
+     }
+     NumSlots 0
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "HAF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{13CF0711B5EF3DD6}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Black.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{7DF6B752360B0AF5}Prefabs/Vehicles/Wheeled/M998/VehParts/M1167_roof_TOW_Black.et"
+    }
+   }
+  }
+ }
+}

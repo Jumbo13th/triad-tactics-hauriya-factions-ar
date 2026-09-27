@@ -1,0 +1,63 @@
+GenericEntity : "{70837F44CD03FD05}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Medical_01_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   Enabled 1
+  }
+  SCR_EditableEntityComponent "{74F8A8CDD3364571}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Crates_Medical_HAF"
+    m_Image "{460C57CD9E1B95C6}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Medical_01_USSR.edds"
+    m_sFaction "HAF"
+    m_aAuthoredLabels {
+     1779715286
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{54F48AF1F3C103C1}" {
+     Name "#THF-Crates_Medical_HAF"
+     Description "#THF-Crates_Medical_HAF"
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 100000
+   MaxItemSize 40 40 40
+   m_fMaxWeight 100
+   MultiSlots {
+    MultiSlotConfiguration "{7EF2399EEBBD4120}" {
+     SlotTemplate InventoryStorageSlot FieldDressing_US_01 {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{5898DD4744CD4BD0}" {
+     SlotTemplate InventoryStorageSlot MorphineInjection_01 {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{591A6F62BA134E6E}" {
+     SlotTemplate InventoryStorageSlot Tourniquet_US_01 {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

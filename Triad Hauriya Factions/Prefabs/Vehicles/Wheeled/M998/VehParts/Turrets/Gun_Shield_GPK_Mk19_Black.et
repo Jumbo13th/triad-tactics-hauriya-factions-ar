@@ -1,0 +1,21 @@
+GenericEntity : "{D7B72696E407AF87}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK_Mk19.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{697AA1F3BE0366DB}" {
+     SourceMaterial "GPK_GunnerShield_M2HB_Mount"
+     AssignedMaterial "{91EBEDF4040475B2}Assets/Vehicles/Wheeled/M1151/Data/GPK_Gunner_Shield_Mount_M2HB_Black.emat"
+    }
+    MaterialAssignClass "{697AA1F3BE0366CD}" {
+     SourceMaterial "GPK_Gunner_Shield"
+     AssignedMaterial "{A1F34E2E659B8A20}Assets/Vehicles/Wheeled/M1151/Data/GPK_Gunner_Shield_Black.emat"
+    }
+    MaterialAssignClass "{697AA1F3BE0366F0}" {
+     SourceMaterial "GPK_Mk19_Stick"
+     AssignedMaterial "{6CF5ECE69E3B53FB}Assets/Vehicles/Wheeled/M1151/Data/GPK_Mk19_Stick_Black.emat"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "697A9E6CF171FDCD"
+ coords -0.002 0 0
+ scale 1.5
+ {
+  GenericEntity : "{049377D752A74DA2}Prefabs/Props/Fabric/Flags/Flag_1_2_HAF.et" {
+   ID "697AA046B63EF207"
+   coords 0 0 0
+   scale 0.4
+  }
+ }
+}

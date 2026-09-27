@@ -1,0 +1,141 @@
+GenericEntity : "{8C7C140EEB0ECF36}Prefabs/Props/Military/AmmoBoxes/USSR/EquipmentBoxWooden_Weapon_01_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   Enabled 1
+  }
+  SCR_EditableEntityComponent "{DAACEBF25EA44EC2}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#THF-Crates_Weapons_HAF"
+    m_Image "{F77E0A42CAF19662}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Weapon_01_USSR.edds"
+    m_sFaction "HAF"
+    m_aAuthoredLabels {
+     1779715286
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemDisplayName SCR_InventoryUIInfo "{54F48AF1F3C103C1}" {
+     Name "#THF-Crates_Weapons_HAF"
+     Description "#THF-Crates_Weapons_HAF"
+    }
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 2000000
+   MaxItemSize 200 200 200
+   m_fMaxWeight 1000
+   MultiSlots {
+    MultiSlotConfiguration "{38F4682696D94326}" {
+     SlotTemplate InventoryStorageSlot Handgun_Glock17 {
+      Prefab "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{7F6EDAF45D294284}" {
+     SlotTemplate InventoryStorageSlot Handgun_PM {
+      Prefab "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{DC2C6CC9BA0C47ED}" {
+     SlotTemplate InventoryStorageSlot Launcher_RPG22 {
+      Prefab "{722CE6FEC39EE896}Prefabs/Weapons/Launchers/RPG22/Launcher_RPG22.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{AAA09C8D20F24812}" {
+     SlotTemplate InventoryStorageSlot Launcher_RPG7_pgo7 {
+      Prefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+     }
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{896AE269903843AD}" {
+     SlotTemplate InventoryStorageSlot MG_PKM {
+      Prefab "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{07EA57CF60864F86}" {
+     SlotTemplate InventoryStorageSlot BC_Rifle_AK47 {
+      Prefab "{41AD4E19A9BDBDCE}Prefabs/Weapons/Rifles/AK47/BC_Rifle_AK47.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{F55F2C46BB624898}" {
+     SlotTemplate InventoryStorageSlot BC_Rifle_AKM {
+      Prefab "{995B334262EDDA95}Prefabs/Weapons/Rifles/AKM/BC_Rifle_AKM.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{029739F0CC274583}" {
+     SlotTemplate InventoryStorageSlot ARY_Rifle_G3A3_WideBlack {
+      Prefab "{1EDA8027A72F8D5B}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/ARY_Rifle_G3A3_WideBlack.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{681065345E5B4131}" {
+     SlotTemplate InventoryStorageSlot ARY_Rifle_G3A3_HK79_Black {
+      Prefab "{AAF2F2F09E1E6C48}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_G3A3/Variants/HK79/ARY_Rifle_G3A3_HK79_Black.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{DE6A34986BCA4B92}" {
+     SlotTemplate InventoryStorageSlot ARY_Rifle_G3_SG1 {
+      Prefab "{9DE7A9D5E792E720}Prefabs/Weapons/Rifles/ARY_G3/ARY_G3_SG1/ARY_Rifle_G3_SG1.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{ED28D6AAD3FA4181}" {
+     SlotTemplate InventoryStorageSlot BC_Rifle_M1_Garand {
+      Prefab "{8F5A4A44DD1D84D6}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{C063875D0DA642BA}" {
+     SlotTemplate InventoryStorageSlot Rifle_M21_ARTII {
+      Prefab "{81EB948E6414BD6F}Prefabs/Weapons/Rifles/M14/Rifle_M21_ARTII.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{17B2643FC21D4141}" {
+     SlotTemplate InventoryStorageSlot Rifle_M4_RIS {
+      Prefab "{6CA25A723382F902}Prefabs/Weapons/Rifles/M4/Rifle_M4_RIS.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{4D1E7CF057CE4B5F}" {
+     SlotTemplate InventoryStorageSlot Rifle_M4A1_RAS_Aimpoint {
+      Prefab "{90D8238D1D8D2DC5}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_Aimpoint.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{C4411560A9B54C67}" {
+     SlotTemplate InventoryStorageSlot BC_Rifle_Mosin_Nagant_9130 {
+      Prefab "{C1B4F7B87B720EE8}Prefabs/Weapons/Rifles/Mosin/BC_Rifle_Mosin_Nagant_9130.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{F7B3A029E1604F0E}" {
+     SlotTemplate InventoryStorageSlot BC_Rifle_STG44 {
+      Prefab "{63A0A8DBB02DCB60}Prefabs/Weapons/Rifles/STG44/BC_Rifle_STG44.et"
+     }
+     NumSlots 2
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

@@ -1,0 +1,13 @@
+GenericEntity : "{60D1BCDA4BC869F9}Prefabs/Vehicles/Wheeled/M998/Door/M1167_L_Shield.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{690D52661ECAABE4}" {
+     SourceMaterial "GPK_M1167"
+     AssignedMaterial "{768ADDF60A5F3E9D}Assets/Vehicles/Wheeled/M1151/Data/GPK_M1167_Black.emat"
+    }
+   }
+  }
+ }
+}

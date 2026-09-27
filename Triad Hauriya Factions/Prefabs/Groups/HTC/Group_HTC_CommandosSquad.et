@@ -1,0 +1,13 @@
+SCR_AIGroup : "{04281E87CF471DE2}Prefabs/Groups/HTC/Group_HTC_RifleSquad.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "#THF-Groups_Commandos"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{DA0CFE1052DF6320}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_SL.et" "{A71412E8374C5FB9}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_SR.et" "{E593D1150E14D5D0}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_MG.et" "{C74B4D210BE87A24}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_AMG.et" "{939179CDE84047E3}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_Rifleman_AT.et" "{4235DBA5DAEBE9BE}Prefabs/Characters/Factions/HTC/Commandos/Character_HTC_Commandos_Rifleman.et"
+ }
+}

@@ -1,0 +1,60 @@
+Turret : "{CD32C4DDC8D2EDD4}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1167_GPK_TOW.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{697C96C7E3FD8C23}" {
+     SourceMaterial "GPK_M1167"
+     AssignedMaterial "{768ADDF60A5F3E9D}Assets/Vehicles/Wheeled/M1151/Data/GPK_M1167_Black.emat"
+    }
+   }
+  }
+  TF_WeaponReloadComponent "{697C96C62A42B4E3}" {
+   Enabled 1
+   m_ImpulsTo PointInfo "{697C96C62A42B4E5}" {
+    PivotID "v_turret_vertical_rotation"
+    Offset 0 0.0965 -1.8137
+   }
+   m_DetachLoadedPoint PointInfo "{697C96C62A42B4E4}" {
+    PivotID "Scene_Root"
+    Offset 0.3877 0.076 -0.5745
+    Angles 0 -38.085 0
+   }
+   m_fImpulseStrength 3
+   m_SupportedMagazine MagazineWellTow "{697C96C62A42B4E6}" {
+   }
+   m_DetachSound SCR_AudioSourceConfiguration "{697C96C62A42B4EB}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_UNLOAD"
+   }
+   m_AttachSound SCR_AudioSourceConfiguration "{697C96C62A42B4EA}" {
+    m_sSoundProject "{EEAE2427DD990D12}Sounds/Weapons/AircraftWeapons/RocketPods/Weapons_RocketPods_Generic_Handling.acp"
+    m_sSoundEventName "SOUND_PYLON_ATTACH"
+   }
+  }
+  SlotManagerComponent "{690AB848CC1224F1}" {
+   Slots {
+    RegisteringComponentSlotInfo Hatch {
+     Prefab "{13C0F0E23225D9D9}Prefabs/Vehicles/Wheeled/M998/Door/M1167_Hatch_Black.et"
+    }
+    RegisteringComponentSlotInfo rear_Shield {
+     Prefab "{CD3FBD7F5A8ABDFF}Prefabs/Vehicles/Wheeled/M998/Door/M1167_rear_Shield_Black.et"
+    }
+    RegisteringComponentSlotInfo L_Shield {
+     Prefab "{40072B97E9540509}Prefabs/Vehicles/Wheeled/M998/Door/M1167_L_Shield_Black.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   additionalActions {
+    TF_FlipMeshUserAction "{690D0A107D29E444}" {
+     m_signalConfigs {
+      TF_FlipMeshSignalConfig "{690D0A14B7477F5F}" {
+       m_foldedAngle 65
+      }
+     }
+    }
+   }
+  }
+ }
+}

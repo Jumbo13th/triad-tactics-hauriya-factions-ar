@@ -1,0 +1,22 @@
+Vehicle : "{D99CAAEE2D047923}Prefabs/Vehicles/Wheeled/M1151/M1151_armed_M2HB_HAF_Black.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#THF-Vehicles-M1151A1_M2_Flag"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Antenna_rear {
+     Prefab "{BB50F31C226E6F48}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_antenna_rear_no_damage.et"
+    }
+    RegisteringComponentSlotInfo Flag {
+     Offset 0.924 2.8283 -2.2369
+     Prefab "{CDDBCF8E89AE89F2}Prefabs/Structures/Military/Flags/FlagPole/Flag_Small_HAF.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+ }
+}
